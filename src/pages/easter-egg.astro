@@ -2,12 +2,26 @@
 import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import LKxLC from '../assets/sadme.jpg'
+import WandaPelona from '../assets/wandaPelona.png'
 ---
 <Layout>
-    <div class="flex items-center justify-center h-screen">
+    <div class="flex items-center justify-center h-screen space-x-4">
     <Image 
         src={LKxLC} 
-        alt="Description of my image" 
+        alt="LKxLC" 
+        width={256} 
+        height={256} 
+        class="w-64 h-64 object-cover" 
+    />
+    <video controls width="640" height="360">
+        <source src="/videos/golo.mov" type="video/quicktime" />
+        <source src="/videos/golo.mov" type="video/mp4" />
+        <source src="/videos/golo.mov" type="video/webm" />
+        Your browser does not support the video tag.
+    </video>
+    <Image 
+        src={WandaPelona} 
+        alt="Wanda Pelona" 
         width={256} 
         height={256} 
         class="w-64 h-64 object-cover" 
