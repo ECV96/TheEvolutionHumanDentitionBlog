@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import wandaProfile from '../assets/wanda.jpg'
+---
+<div class="card lg:card-side m-20">
+  <div class="justify-items-center">
+    <figure class="h-150 w-120">
+        <Image
+        src={wandaProfile}
+        alt="Wanda" />
+    </figure>
+  </div>
+  <div class="card-body max-w-7xl">
+    <div class="justify-items-center">
+        <h2 class="card-title text-6xl">Wanda Lee</h2>
+        <br>
+        <p>Hi! My name is Wanda Lee, and I’m  doing my second bachelors at Westfield State University, majoring in Biology. Before this, I studied Dentistry in Mexico. One of my goals is to work in the research field at the CDC, where I can focus on topics related to virology, microbiology, genetics or neuroscience. Besides that, I also want I would like to open my own dental clinic in Mexico or if it is possible, in the many parts of the world. Outside of school, I enjoy learning about different and new things related medicine, computers and arts.</p>
+        <br>
+        <h2 class="text-4xl font-bold">Why I chose this topic</h2>
+        <br>
+        <p>For this project, I chose to explore the evolution of human dentition because it connects two things that I really like: biology and dentistry. Trying to understand the evolutionary background of our teeth helps to explain how dentition has been changing through the years depending on our diet, and also why so many oral health problems appear when we decide to ignore this part of our body.</p>
+        <p>As a dentist, I have seen how issues like wisdom teeth extraction, malocclusion, and cavities are very common today. Now, as a biology student, I want to understand a little more of the evolutionary history of our teeth and how the changes in our lifestyle can be related</p>
+    </div>
+  </div>
+</div>
