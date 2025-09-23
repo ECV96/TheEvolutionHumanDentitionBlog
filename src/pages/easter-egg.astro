@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import LKxLC from '../assets/sadme.jpg'
 import WandaPelona from '../assets/wandaPelona.png'
+import reaMoa from '../assets/ReaMoa.jpg'
 ---
 <Layout>
     <div class="flex items-center justify-center h-screen space-x-4">
@@ -25,6 +26,13 @@ import WandaPelona from '../assets/wandaPelona.png'
         width={256} 
         height={256} 
         class="w-64 h-64 object-cover" 
+    />
+    <Image 
+        src={reaMoa} 
+        alt="Wanda con Rea y Moa" 
+        width={256} 
+        height={256} 
+        class="w-64 h-128 object-cover" 
     />
     </div>
 </Layout>
