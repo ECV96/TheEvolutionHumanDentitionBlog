@@ -1,131 +1,272 @@
 ---
-import { Image } from 'astro:assets';
-import papperUno from '../assets/uno.png'
-import papperDos from '../assets/dos.png'
-import papperTres from '../assets/tres.png'
-import papperCuatro from '../assets/cuatro.png'
-import papperCinco from '../assets/cinco.png'
+import { Image } from "astro:assets";
+import papperUno from "../assets/uno.png";
+import papperDos from "../assets/dos.png";
+import papperTres from "../assets/tres.png";
+import papperCuatro from "../assets/cuatro.png";
+import papperCinco from "../assets/cinco.png";
 ---
+
 <div class="card lg:card-side m-20">
-  <div class="justify-items-center">
-    <figure>
-        <Image
-        src={papperUno}
-        alt="Wanda" />
-    </figure>
-  </div>
-  <div class="card-body max-w-7xl">
+    <div class="justify-items-center lg:mt-20">
+        <figure>
+            <Image src={papperUno} alt="Wanda" />
+        </figure>
+    </div>
+    <div class="card-body max-w-7xl">
         <div class="justify-items-center">
-            <h2 class="card-title text-5xl mb-4">Sequencing ancient calcified dental plaque shows changes in oral microbiota with dietary shifts of the Neolithic and Industrial revolutions</h2>
-            
+            <h2 class="card-title text-5xl mb-4">
+                Sequencing ancient calcified dental plaque shows changes in oral
+                microbiota with dietary shifts of the Neolithic and Industrial
+                revolutions
+            </h2>
+
             <p class="mb-4">
-              Adler CJ, Dobney K, Weyrich LS, Kaidonis J, Walker AW, et al. 2013. Sequencing ancient calcified dental plaque shows changes in oral microbiota with dietary shifts. Proc Natl Acad Sci USA. 110(15):5647–5652. doi:10.1073/pnas.1305477110. PMCID: PMC3996550.
-              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3996550/" target="_blank" rel="noopener noreferrer" class="link link-primary block mt-2">https://pmc.ncbi.nlm.nih.gov/articles/PMC3996550/</a>
+                Adler CJ, Dobney K, Weyrich LS, Kaidonis J, Walker AW, et al.
+                2013. Sequencing ancient calcified dental plaque shows changes
+                in oral microbiota with dietary shifts. Proc Natl Acad Sci USA.
+                110(15):5647–5652. doi:10.1073/pnas.1305477110. PMCID:
+                PMC3996550.
+                <a
+                    href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3996550/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link link-primary block mt-2"
+                    >https://pmc.ncbi.nlm.nih.gov/articles/PMC3996550/</a
+                >
             </p>
-            
-            <p class="mb-4">In this paper, researchers study ancient dental calculus to examine how changes in human dietary habits affected the composition of mouth bacteria. They compare hunter-gatherers, early farmers, and industrial people. During the Industrial Revolution, cariogenic bacteria became dominant. Apparently, as the diet contains more starch and sugar, the oral microbiota shifts to a more cariogenic profile. </p>
-            
-            <p>I use Figure 2 to show how different lifestyles are associated with different mouth bacteria at different times. Ancient calculus from hunter-gatherer and early farming groups is very different compared with modern plaque. When the diet started to added more sugar, people tend to developed more dental problems. That is one reason caries has increased in recent times. I think it's a good idea to use this article as a starting point to discuss a common dental issue: dental plaque. Then I will link it to my main topic (third molars): the same diet shift that changed the biofilm also reduced chewing demand, which is part of why many modern jaws are smaller and leave less space for M3.
+
+            <p class="mb-4">
+                In this paper, researchers study ancient dental calculus to
+                examine how changes in human dietary habits affected the
+                composition of mouth bacteria. They compare hunter-gatherers,
+                early farmers, and industrial people. During the Industrial
+                Revolution, cariogenic bacteria became dominant. Apparently, as
+                the diet contains more starch and sugar, the oral microbiota
+                shifts to a more cariogenic profile.
+            </p>
+
+            <p>
+                I use Figure 2 to show how different lifestyles are associated
+                with different mouth bacteria at different times. Ancient
+                calculus from hunter-gatherer and early farming groups is very
+                different compared with modern plaque. When the diet started to
+                added more sugar, people tend to developed more dental problems.
+                That is one reason caries has increased in recent times. I think
+                it's a good idea to use this article as a starting point to
+                discuss a common dental issue: dental plaque. Then I will link
+                it to my main topic (third molars): the same diet shift that
+                changed the biofilm also reduced chewing demand, which is part
+                of why many modern jaws are smaller and leave less space for M3.
             </p>
         </div>
-  </div>
+    </div>
 </div>
 
 <div class="card lg:card-side m-20">
-  <div class="card-body max-w-7xl">
+    <div class="justify-items-center p-4 lg:hidden">
+        <figure>
+            <Image src={papperDos} alt="Wanda" />
+        </figure>
+    </div>
+    <div class="card-body max-w-7xl">
         <div class="justify-items-center">
-            <h2 class="card-title text-5xl mb-4">A dental revolution: The association between occlusion and chewing behaviour</h2>
-            
-            <p class="mb-4">
-              Silvester CM, Kullmer O, Hillson S. A dental revolution: The association between occlusion and chewing behaviour. PLoS One. 2021 Dec 15;16(12):e0261404. doi: 10.1371/journal.pone.0261404. PMID: 34910787; PMCID: PMC8673603.
-              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8673603/" target="_blank" rel="noopener noreferrer" class="link link-primary block mt-2">https://pmc.ncbi.nlm.nih.gov/articles/PMC8673603/</a>
-            </p>
-                        
-            <p class="mb-4">This article explains how the modern diet, rich in soft foods, and certain oral habits, such as chewing food less thoroughly, can affect jaw development and dental occlusion. Chewing less during childhood can lead to smaller dental arches, resulting in less space for the teeth. The post-industrial diet also had negative effects, as foods became increasingly processed and standardized, containing more and more sugar, thus contributing to the emergence of new dental problems seen today. The article supports the idea that changes in food texture (and eating frequency/snacking habits) contribute to the increased prevalence of crowded teeth and problems with wisdom teeth in current patients.</p>
+            <h2 class="card-title text-5xl mb-4">
+                A dental revolution: The association between occlusion and
+                chewing behaviour
+            </h2>
 
-            <p>I plan to use this paper as an introduction to the topic I will focus on: how, at the beginning of the industrial era, numerous dental problems began to emerge, from tooth decay to changes in jaw structure due to alterations in food texture and the resulting changes in chewing habits.</p>
+            <p class="mb-4">
+                Silvester CM, Kullmer O, Hillson S. A dental revolution: The
+                association between occlusion and chewing behaviour. PLoS One.
+                2021 Dec 15;16(12):e0261404. doi: 10.1371/journal.pone.0261404.
+                PMID: 34910787; PMCID: PMC8673603.
+                <a
+                    href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8673603/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link link-primary block mt-2"
+                    >https://pmc.ncbi.nlm.nih.gov/articles/PMC8673603/</a
+                >
+            </p>
+
+            <p class="mb-4">
+                This article explains how the modern diet, rich in soft foods,
+                and certain oral habits, such as chewing food less thoroughly,
+                can affect jaw development and dental occlusion. Chewing less
+                during childhood can lead to smaller dental arches, resulting in
+                less space for the teeth. The post-industrial diet also had
+                negative effects, as foods became increasingly processed and
+                standardized, containing more and more sugar, thus contributing
+                to the emergence of new dental problems seen today. The article
+                supports the idea that changes in food texture (and eating
+                frequency/snacking habits) contribute to the increased
+                prevalence of crowded teeth and problems with wisdom teeth in
+                current patients.
+            </p>
+
+            <p>
+                I plan to use this paper as an introduction to the topic I will
+                focus on: how, at the beginning of the industrial era, numerous
+                dental problems began to emerge, from tooth decay to changes in
+                jaw structure due to alterations in food texture and the
+                resulting changes in chewing habits.
+            </p>
         </div>
-  </div>
-  <div class="justify-items-center">
-    <figure class="lg:mt-40">
-        <Image
-        src={papperDos}
-        alt="Wanda" />
-    </figure>
-  </div>
+    </div>
+    <div class="justify-items-center p-4 hidden lg:flex lg:items-center">
+        <figure>
+            <Image src={papperDos} alt="Wanda" />
+        </figure>
+    </div>
 </div>
 
 <div class="card lg:card-side m-20">
-  <div class="justify-items-center">
-    <figure>
-        <Image
-        src={papperTres}
-        alt="Wanda" />
-    </figure>
-  </div>
-  <div class="card-body max-w-7xl">
+    <div class="justify-items-center mt-10">
+        <figure>
+            <Image src={papperTres} alt="Wanda" />
+        </figure>
+    </div>
+    <div class="card-body max-w-7xl">
         <div class="justify-items-center">
-            <h2 class="card-title text-5xl mb-4">Third Molar Agenesis Is Associated with Facial Size</h2>
-            
+            <h2 class="card-title text-5xl mb-4">
+                Third Molar Agenesis Is Associated with Facial Size
+            </h2>
+
             <p class="mb-4">
-              Gkantidis N, Fan J, Xiong H, Halazonetis DJ, Vasilakos G. 2021. Third molar agenesis is associated with facial size. Biology. 10(7):650.
-              <a href="https://www.mdpi.com/2079-7737/10/7/650" target="_blank" rel="noopener noreferrer" class="link link-primary block mt-2">https://www.mdpi.com/2079-7737/10/7/650</a>
+                Gkantidis N, Fan J, Xiong H, Halazonetis DJ, Vasilakos G. 2021.
+                Third molar agenesis is associated with facial size. Biology.
+                10(7):650.
+                <a
+                    href="https://www.mdpi.com/2079-7737/10/7/650"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link link-primary block mt-2"
+                    >https://www.mdpi.com/2079-7737/10/7/650</a
+                >
             </p>
-            
-            <p class="mb-4">This article analyzes the relationship between the absence of third molars (M3) and smaller jaw and facial dimensions. Using geometric morphometric, the authors compare patients with and without agenesis of the third molars. The results showed that when one or more third molars are missing, the maxilla and mandible are smaller, and the facial structure is also smaller; this effect intensifies as the number of missing third molars increases. The cranial base does not show this effect. Furthermore, this association is observed even when the agenesis affects only one dental arch. Therefore, it is concluded that the agenesis (absence) of third molars is related to smaller jaws and less space.</p>
-            
-            <p>For my project, I will use Table 3 from the article, which shows the differences in the size of the maxilla, mandible, and face in men and women with and without third molars. This table will be very useful for explaining why many patients today have insufficient posterior space and problems with the eruption of their third molars.
+
+            <p class="mb-4">
+                This article analyzes the relationship between the absence of
+                third molars (M3) and smaller jaw and facial dimensions. Using
+                geometric morphometric, the authors compare patients with and
+                without agenesis of the third molars. The results showed that
+                when one or more third molars are missing, the maxilla and
+                mandible are smaller, and the facial structure is also smaller;
+                this effect intensifies as the number of missing third molars
+                increases. The cranial base does not show this effect.
+                Furthermore, this association is observed even when the agenesis
+                affects only one dental arch. Therefore, it is concluded that
+                the agenesis (absence) of third molars is related to smaller
+                jaws and less space.
+            </p>
+
+            <p>
+                For my project, I will use Table 3 from the article, which shows
+                the differences in the size of the maxilla, mandible, and face
+                in men and women with and without third molars. This table will
+                be very useful for explaining why many patients today have
+                insufficient posterior space and problems with the eruption of
+                their third molars.
             </p>
         </div>
-  </div>
+    </div>
 </div>
 
 <div class="card lg:card-side m-20">
-  <div class="card-body max-w-7xl">
+    <div class="justify-items-center p-4 lg:hidden">
+        <figure>
+            <Image src={papperCuatro} alt="Wanda" />
+        </figure>
+    </div>
+    <div class="card-body max-w-7xl">
         <div class="justify-items-center">
-            <h2 class="card-title text-5xl mb-4">Third molar agenesis in modern humans with and without agenesis of other teeth</h2>
-            
-            <p class="mb-4">
-              Scheiwiller M, Oeschger ES, Gkantidis N. 2020. Third molar agenesis in modern humans with and without agenesis of other teeth. PeerJ 8:e10367.
-              <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7678444/" target="_blank" rel="noopener noreferrer" class="link link-primary block mt-2">https://pmc.ncbi.nlm.nih.gov/articles/PMC7678444/</a>
-            </p>
-            
-            <p class="mb-4">This article discusses the frequency of missing third molars (M3) and its relationship with the absence of other teeth. The authors compare two groups: (1) individuals with agenesis of some teeth (excluding M3s) and (2) individuals without dental agenesis. The results show that M3 agenesis is common and more frequent in the group with other dental anomalies. Differences according to sex and jaw (upper and lower) are also analyzed.</p>
-            
-            <p class="mb-4">I will use the graph found in the article because it compares two groups: people with agenesis of other teeth and a control group. It shows how many third molars are missing (from 0 to 4) in each person. In the group with agenesis, the absence of all four third molars is more common, while in the control group, the absence of third molars is less frequent.</p>
+            <h2 class="card-title text-5xl mb-4">
+                Third molar agenesis in modern humans with and without agenesis
+                of other teeth
+            </h2>
 
+            <p class="mb-4">
+                Scheiwiller M, Oeschger ES, Gkantidis N. 2020. Third molar
+                agenesis in modern humans with and without agenesis of other
+                teeth. PeerJ 8:e10367.
+                <a
+                    href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7678444/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link link-primary block mt-2"
+                    >https://pmc.ncbi.nlm.nih.gov/articles/PMC7678444/</a
+                >
+            </p>
+
+            <p class="mb-4">
+                This article discusses the frequency of missing third molars
+                (M3) and its relationship with the absence of other teeth. The
+                authors compare two groups: (1) individuals with agenesis of
+                some teeth (excluding M3s) and (2) individuals without dental
+                agenesis. The results show that M3 agenesis is common and more
+                frequent in the group with other dental anomalies. Differences
+                according to sex and jaw (upper and lower) are also analyzed.
+            </p>
+
+            <p class="mb-4">
+                I will use the graph found in the article because it compares
+                two groups: people with agenesis of other teeth and a control
+                group. It shows how many third molars are missing (from 0 to 4)
+                in each person. In the group with agenesis, the absence of all
+                four third molars is more common, while in the control group,
+                the absence of third molars is less frequent.
+            </p>
         </div>
-  </div>
-  <div class="justify-items-center">
-    <figure class="lg:mt-40">
-        <Image
-        src={papperCuatro}
-        alt="Wanda" />
-    </figure>
-  </div>
+    </div>
+    <div class="justify-items-center p-4 hidden lg:flex lg:items-center">
+        <figure>
+            <Image src={papperCuatro} alt="Wanda" />
+        </figure>
+    </div>
 </div>
 
 <div class="card lg:card-side m-20">
-  <div class="justify-items-center">
-    <figure>
-        <Image
-        src={papperCinco}
-        alt="Wanda" />
-    </figure>
-  </div>
-  <div class="card-body max-w-7xl">
+    <div class="justify-items-center p-4">
+        <figure>
+            <Image src={papperCinco} alt="Wanda" />
+        </figure>
+    </div>
+    <div class="card-body max-w-7xl">
         <div class="justify-items-center">
-            <h2 class="card-title text-5xl mb-4">Impaction of lower third molars and their association with age: radiological perspectives</h2>
-            
+            <h2 class="card-title text-5xl mb-4">
+                Impaction of lower third molars and their association with age:
+                radiological perspectives
+            </h2>
+
             <p class="mb-4">
-              Ryalat S, Dar-Odeh N, Abul Hasan R, Alrwaily M, Baqain ZH. 2018. Impaction of lower third molars and their association with age. BMC Oral Health. 18:58.
-              <a href="https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-018-0519-1" target="_blank" rel="noopener noreferrer" class="link link-primary block mt-2">https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-018-0519-1</a>
+                Ryalat S, Dar-Odeh N, Abul Hasan R, Alrwaily M, Baqain ZH. 2018.
+                Impaction of lower third molars and their association with age.
+                BMC Oral Health. 18:58.
+                <a
+                    href="https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-018-0519-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="link link-primary block mt-2"
+                    >https://bmcoralhealth.biomedcentral.com/articles/10.1186/s12903-018-0519-1</a
+                >
             </p>
-            
-            <p class="mb-4">This article analyzes numerous panoramic radiographs of young adults, focusing on impacted lower third molars. It describes the most common angulations (mesioangular impaction is very frequent) and how these characteristics vary with age. As people age, vertical impaction becomes more common, the retromolar space tends to increase, and root formation continues.</p>
-            
-            <p>I plan to include Figure 3 because it illustrates how the root size of the lower third molar increases with age; after the age of 20, the root continues to grow, which can make extraction more difficult.
+
+            <p class="mb-4">
+                This article analyzes numerous panoramic radiographs of young
+                adults, focusing on impacted lower third molars. It describes
+                the most common angulations (mesioangular impaction is very
+                frequent) and how these characteristics vary with age. As people
+                age, vertical impaction becomes more common, the retromolar
+                space tends to increase, and root formation continues.
+            </p>
+
+            <p>
+                I plan to include Figure 3 because it illustrates how the root
+                size of the lower third molar increases with age; after the age
+                of 20, the root continues to grow, which can make extraction
+                more difficult.
             </p>
         </div>
-  </div>
+    </div>
 </div>
