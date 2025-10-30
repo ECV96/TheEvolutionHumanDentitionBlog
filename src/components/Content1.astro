@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import papperUno from "../assets/uno.png";
 import papperDos from "../assets/dos.png";
 ---
 
@@ -21,8 +22,11 @@ import papperDos from "../assets/dos.png";
         molars, and a higher caries risk due to a more cariogenic biofilm (Silvester
         et al. 2021; Adler et al. 2013).
     </p>
-    <figure>
+    <figure class="mb-5">
         <Image src={papperDos} alt="Wanda" />
+    </figure>
+    <figure>
+        <Image src={papperUno} alt="Wanda" />
     </figure>
 </div>
 
