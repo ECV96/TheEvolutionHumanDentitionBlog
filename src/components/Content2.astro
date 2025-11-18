@@ -1,0 +1,57 @@
+---
+import { Image } from "astro:assets";
+import papperTres from "../assets/papertres.png";
+import papperCuatro from "../assets/papercuatro.png";
+---
+
+<div class="justify-items-center p-10">
+    <h2 class="card-title text-5xl mb-4">
+        The impact of diet in the microbes on teeth
+    </h2>
+    <p class="mb-5">
+        Human diet has evolved throughout time. This evolution has completely
+        changed the human microbes on teeth. Humans have increased in regular
+        diets carbohydrates which in turn increases cariogenicity (Cornejo et
+        al., 2013). The constant supply of carbohydrates aid in the cause of
+        diseases which in turn require the human body to adapt. Additionally,
+        the transition from gathering to agriculture allowed to the exponential
+        population expansion of streptococcus mutants (Cornejo et al., 2013).
+        This major shift restructured the microbial ecology of humans. The
+        change went from balanced highly diverse microbes to a low-diversity
+        acid dominant microbes (Adler et al., 2017). Figure 1, provides a good
+        example of how human diet and intervention directly affects the human
+        microbe in teeth. A diet low in carbs can help inhibit production of
+        glucans which prevents the formation of cariogenic films (Baker et al.
+        2019). Understanding the complexity of a system with native microbes
+        that fight with colonizers is important to observe how the human body
+        can adapt (evolve) to changes in its environment.
+    </p>
+    <figure class="mb-5">
+        <Image src={papperTres} alt="Wanda" />
+        <figcaption>
+            Figure 1 Shows how a healthy tooth can develop caries. Main reason
+            is due to poor oral hygiene but “fuel” to the fire can be attributed
+            to high-sugar diets. The Figure also demonstrates why it is more
+            common to develop caries in contrast to the poor-hygiene from the
+            past.
+        </figcaption>
+    </figure>
+    <figure class="mb-5">
+        <Image src={papperCuatro} alt="Wanda" />
+        <figcaption>
+            Figure 2 a) shows how as human history reaches “modern” times, the
+            population of S. mutants exponentially evolved. b) shows how it was
+            observed in the S. mutants evolution the behavior of an exponential
+            growth. The lower the allele, the more “rare,” the higher the number
+            of segregating sites, means the more diverse the evolution is.
+            Essentially showing how the S. mutant had an observation of an
+            exponential population. C) shows the areas where there was a
+            likelihood for the exponential growth of S. mutants. The x axis is
+            the normalization of the current population to the ancestral
+            population while the y axis denotes the time since expansion. These
+            figures show that after modernization (which included change in
+            diet), the S. mutants evolved fast which in turn forced the
+            microbials in the human teeth to evolve as well.
+        </figcaption>
+    </figure>
+</div>
